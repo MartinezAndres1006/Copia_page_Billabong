@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="container mt-6" style="max-width: 500px;">
+            <form id="formProducts" action="products" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="exampleInputEmail1" style="margin:10px ;">Ingresa el nombre del producto</label>
+                    <input type="name" name="nombre" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Producto">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1" style="margin:10px ;">Ingresa el modelo</label>
+                    <input type="name" name="modelo" class="form-control" id="exampleInputPassword1" placeholder="modelo">
+                </div>
+                
+          <div class="field">
+            <div class="file is-boxed">
+              <label class="file-label">
+                <input class="file-input btn btn-primary" style="margin: 10px;" type="file" name="photo" />
+                <span class="file-cta"><br>
+                  <span class="file-label"> Sube una imágen </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-success btn btn-primary">Guardar</button>
+            </div>
+          </div>
+            </form>
+        </section>
+    </div>
+</body>
+<script src="/public/app.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+</html>

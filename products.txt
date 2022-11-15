@@ -1,0 +1,1 @@
+[{"nombre":"casio","modelo":"fx-570","id":1},{"nombre":"casio","modelo":"fx-95","id":2},{"nombre":"casio","modelo":"fx-991","id":3},{"nombre":"Redragon","modelo":"Kumara k552","id":4}]
