@@ -1,1 +1,1 @@
-[{"nombre":"casio","modelo":"fx-570","id":1},{"nombre":"casio","modelo":"fx-95","id":2},{"nombre":"casio","modelo":"fx-991","id":3},{"nombre":"Redragon","modelo":"Kumara k552","id":4}]
+[{"article":"Samsung A71","price":"12000","tumbnail":"_DSC2807.jpg","id":1},{"article":"Casio fx-82","price":"12000","tumbnail":"600_750-CASIO FX-82MS 240 FUNCTIONS FRACCIONARIOS SCIENTIFIC CALCULR.jpg","id":2},{"product":"Casio fx-991","price":"12000","id":3},{"article":"Casio fx-991","price":"12000","tumbnail":"a5370b681793d23c9ac97949bfd47405.jpg","id":4}]
