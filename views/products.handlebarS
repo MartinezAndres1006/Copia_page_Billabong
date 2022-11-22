@@ -1,0 +1,17 @@
+<div class"cuerpo">
+    <div class="contenedor">
+        <h1>Productos agregados</h1>
+          {{#each products}}
+                <div class="card">
+                    <div class="container" >
+                    </div>
+                    <div class="textContainer">
+                        <img src={{this.image}} alt="">
+                        <b>{{this.article}}</b>
+                        <b>${{this.price}}</b>
+                    </div>
+                </div>
+            {{/each}}
+            <a href="/"><button class="btn btn-primary botoncito">Regresar</button></a>
+    </div>
+</div>
