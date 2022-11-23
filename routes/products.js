@@ -37,7 +37,7 @@ const middlewareProducts = (req, res, next) => {
 }
 
 router.get('/', (req, res) => {
-    res.render('home')
+    res.render('index.ejs', { products });
 })
 
 
@@ -69,7 +69,7 @@ router.post('/products', middlewareProducts, (req, res) => {
     // product.thumbnail = imagen.filename
     contenedor.save(product, file)
     // product.image =  '/uploads/'+imagen.filename;
-    res.redirect("products")
+    res.redirect("/")
 })
 
 
