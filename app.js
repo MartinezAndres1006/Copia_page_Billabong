@@ -9,7 +9,7 @@ const server = app.listen(8080,()=> console.log("Server up"))
 // config
 app.engine('handlebars', handlebars.engine())
 app.set('views', './views')
-app.set('view engine', 'ejs')
+app.set('view engine', 'pug')
 
 
 app.use(express.json())
