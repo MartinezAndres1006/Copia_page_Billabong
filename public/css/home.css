@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+
+}
+.cuerpo{
+    font-family: Helvetica;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+  
+  }
+  
+    
+   .carousel{
+    z-index: 0;
+   }
+
+
+.publicidad{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+   }
+  
+   .publicidad a{
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   .icono{
+    margin: 20px 10px;
+   }
+
+   .beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+   .card_seccion{
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s; 
+    object-fit: cover;/* Agrega una transición suave para que no sea abrupto */
+   }
+   .secciones{
+    margin: 10px;
+   }
+ 
+  .card_seccion:hover {
+    transform: scale(1.021);
+     /* Aplica un zoom del 20% cuando pasas el mouse sobre el elemento */
+  }
+
+  .card_seccion:hover img{
+    box-shadow: 0 0 9px #383838;
+  }
+  
